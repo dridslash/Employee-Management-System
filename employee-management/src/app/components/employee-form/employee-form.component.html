@@ -1,0 +1,28 @@
+<h2>{{ employeeId ? 'Edit' : 'Add' }} Employee</h2>
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+  <label>
+    First Name:
+    <input formControlName="firstName">
+  </label>
+  <label>
+    Last Name:
+    <input formControlName="lastName">
+  </label>
+  <label>
+    Email:
+    <input formControlName="email">
+  </label>
+  <label>
+    Phone Number:
+    <input formControlName="phoneNumber">
+  </label>
+  <label>
+    Position:
+    <input formControlName="position">
+  </label>
+  <label>
+    Department:
+    <input formControlName="department">
+  </label>
+  <button type="submit" [disabled]="employeeForm.invalid">{{ employeeId ? 'Update' : 'Add' }}</button>
+</form>
