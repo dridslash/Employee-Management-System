@@ -31,3 +31,9 @@ replace the older json with new one
 
 Delete : https://localhost:5001/api/employees
 ```
+
+Angular API
+-----------
+```
+http://localhost:4200/employees
+```
