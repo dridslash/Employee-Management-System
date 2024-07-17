@@ -15,6 +15,7 @@ Run Frontend
 -----------
 ```
 cd .\employee-management
+npm install
 ng serve
 ```
 
