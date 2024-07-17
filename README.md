@@ -30,7 +30,7 @@ POST : https://localhost:5001/api/employees
 Put :https://localhost:5001/api/employees
 replace the older json with new one
 
-Delete : https://localhost:5001/api/employees
+Delete : https://localhost:5001/api/{id}
 ```
 
 Angular API
